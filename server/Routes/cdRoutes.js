@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const cdController = require("../Controllers/cdController");
+const cdController = require("../controllers/cdController");
 
 router.get("/cds", cdController.getAllCDs);
 router.post("/cds", cdController.addCD);
